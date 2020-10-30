@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  
-  resources :boba
-  resources :accounts
+  namespace :api do
+    namespace :v1 do
+      resources :bobas
+      resources :accounts
+    end 
+  end 
+
 end
+

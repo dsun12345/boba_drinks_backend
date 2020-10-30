@@ -1,7 +1,8 @@
-class CreateBoba < ActiveRecord::Migration[6.0]
+class CreateBobas < ActiveRecord::Migration[6.0]
   def change
-    create_table :boba do |t|
+    create_table :bobas do |t|
       t.integer :account_id
+      t.string :name
       t.float :amount
       t.string :description
 
