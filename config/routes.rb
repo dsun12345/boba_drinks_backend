@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      resources :bobas
-      resources :accounts
+      resources :accounts do 
+        resources :bobas
+      end 
     end 
   end 
 
