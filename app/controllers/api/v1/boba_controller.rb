@@ -1,4 +1,4 @@
-class Api::V1::BobasController < ApplicationController
+class Api::V1::BobaController < ApplicationController
 
     before_action :set_account
 
