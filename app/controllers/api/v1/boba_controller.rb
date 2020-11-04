@@ -16,7 +16,7 @@ class Api::V1::BobaController < ApplicationController
        @boba = @account.bobas.new(boba_params)
        if @account.update_balance(@boba) != "Balance too low!"
             @boba.save
-            render json: @boba
+            render json: @account
        else 
             render json: {error: "Balance too low"}
        end 
