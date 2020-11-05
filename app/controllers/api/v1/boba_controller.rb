@@ -22,6 +22,17 @@ class Api::V1::BobaController < ApplicationController
        end 
     end 
 
+    def destroy
+        @boba = Boba.find(params["id"])
+        @account = Account.find(@boba.account_id)
+        if @account.update_balance_on_delete(@boba)
+            @boba.destroy
+            render json: @account
+        else
+            render json: {error: "Can't do That"}
+        end 
+    end 
+
     private 
 
     def set_account

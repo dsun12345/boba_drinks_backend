@@ -11,5 +11,9 @@ class Account < ApplicationRecord
         end 
     end 
 
+    def update_balance_on_delete(boba)
+        self.balance = self.balance + boba.amount
+        self.save
+    end 
 
 end

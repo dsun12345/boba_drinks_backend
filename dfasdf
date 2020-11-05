@@ -1,0 +1,32 @@
+=> [[32m#<Boba:0x00007fffc6d6d918[0m
+  id: [1;34m2[0m,
+  account_id: [1;34m1[0m,
+  name: [31m[1;31m"[0m[31mBlack Boba Jasmine Milk Tea[1;31m"[0m[31m[0m,
+  amount: [1;35m10.0[0m,
+  description: [31m[1;31m"[0m[31mJasmine Milk Tea with Boba Adjusted to your sweetness level and ice level[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m03[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m03[0m:[1;34m29[0m:[1;34m29[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m03[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m03[0m:[1;34m29[0m:[1;34m29[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Boba:0x00007fffc6d6d350[0m
+  id: [1;34m3[0m,
+  account_id: [1;34m1[0m,
+  name: [31m[1;31m"[0m[31mBlack Boba Milk Tea[1;31m"[0m[31m[0m,
+  amount: [1;35m10.0[0m,
+  description: [31m[1;31m"[0m[31mMilk Tea with Boba Adjusted to your sweetness level and ice level[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m03[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m23[0m:[1;34m51[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m03[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m23[0m:[1;34m51[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Boba:0x00007fffc6d6ca18[0m
+  id: [1;34m4[0m,
+  account_id: [1;34m1[0m,
+  name: [31m[1;31m"[0m[31mBlack Boba Jasmine Milk Tea[1;31m"[0m[31m[0m,
+  amount: [1;35m10.0[0m,
+  description: [31m[1;31m"[0m[31mJasmine Milk Tea with Boba Adjusted to your sweetness level and ice level[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m03[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m23[0m:[1;34m51[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m03[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m23[0m:[1;34m51[0m:[1;34m50[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Boba:0x00007fffc6d6c338[0m
+  id: [1;34m5[0m,
+  account_id: [1;34m1[0m,
+  name: [31m[1;31m"[0m[31mBlack Sugar[1;31m"[0m[31m[0m,
+  amount: [1;35m20.0[0m,
+  description: [31m[1;31m"[0m[31mBlack Sugar[1;31m"[0m[31m[0m,
+  created_at: [1;34;4mWed[0m, [1;34m04[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m23[0m:[1;34m24[0m:[1;34m17[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mWed[0m, [1;34m04[0m [1;34;4mNov[0m [1;34m2020[0m [1;34m23[0m:[1;34m24[0m:[1;34m17[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m]
