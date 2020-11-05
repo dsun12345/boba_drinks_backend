@@ -1,4 +1,4 @@
 class Boba < ApplicationRecord
     belongs_to :account
-    validates :name, :amount, :description, presence: true
+    validates :name, :quantity, presence: true
 end

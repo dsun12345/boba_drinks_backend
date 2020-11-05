@@ -13,6 +13,7 @@ class Api::V1::BobaController < ApplicationController
     end 
 
     def create
+        binding.pry
        @boba = @account.bobas.new(boba_params)
        if @account.update_balance(@boba) != "Balance too low!"
             @boba.save
@@ -40,7 +41,7 @@ class Api::V1::BobaController < ApplicationController
     end 
 
     def boba_params
-        params.require(:boba).permit(:name, :amount, :account_id, :description)
+        params.require(:boba).permit(:name, :quantity, :account_id)
     end 
 
 end

@@ -3,7 +3,7 @@ class Account < ApplicationRecord
     validates :name, :balance, presence: true
 
     def update_balance(boba)
-        self.balance = self.balance - boba.amount
+        self.balance = self.balance - boba.quantity*5
         if  self.balance >= 0
             self.save
         else 
@@ -12,7 +12,7 @@ class Account < ApplicationRecord
     end 
 
     def update_balance_on_delete(boba)
-        self.balance = self.balance + boba.amount
+        self.balance = self.balance + boba.quantity*5
         self.save
     end 
 

@@ -5,7 +5,6 @@ class CreateBobas < ActiveRecord::Migration[6.0]
       t.string :name
       t.float :amount
       t.string :description
-
       t.timestamps
     end
   end
